@@ -1,0 +1,22 @@
+send messages, logging Router$EMSPSZ off
+31.05.2006 11:53:51 0E14 E SenderWorker: Caught CORBA system exception, ID 'IDL:omg.org/CORBA/OBJECT_NOT_EXIST:1.0'
+TAO exception, minor code = 0 (unknown location; unspecified errno), completed = NO
+ 
+31.05.2006 11:54:21 0E28 I Logged on to parent router as Router$PSZ-5FC183524AC:99083
+31.05.2006 11:54:23 0E0C I Sent message (id=007D134F) to Router$EMSPSZ
+31.05.2006 11:54:23 0E0C I Sent message (id=027D134F) to Router$EMSPSZ
+31.05.2006 12:03:52 0408 I Logged off Agent
+31.05.2006 12:03:52 0130 I Logged off ALC
+31.05.2006 12:03:52 0408 I Logged on ALC for certification
+31.05.2006 12:03:52 0E18 I Routing to parent: id=007D15A8, origin=Router$PSZ-5FC183524AC:99083.ALC, dest=CM, type=Certification.CertRequest
+31.05.2006 12:03:53 0E0C I Sent message (id=007D15A8) to Router$EMSPSZ
+31.05.2006 12:03:53 0130 I Logged on Agent for certification
+31.05.2006 12:03:53 0E18 I Routing to parent: id=007D15A9, origin=Router$PSZ-5FC183524AC:99083.Agent, dest=CM, type=Certification.CertRequest
+31.05.2006 12:03:53 0E14 I Sent message (id=007D15A9) to Router$EMSPSZ
+31.05.2006 12:13:53 0408 I Logged off ALC
+31.05.2006 12:13:53 0130 I Logged on ALC for certification
+31.05.2006 12:13:54 0408 I Logged off Agent
+31.05.2006 12:13:54 0E18 I Routing to parent: id=007D1802, origin=Router$PSZ-5FC183524AC:99083.ALC, dest=CM, type=Certification.CertRequest
+31.05.2006 12:13:54 0E14 E Failed to send message (id=007D1802), adding message back on queue
+31.05.2006 12:13:54 0E14 E Failed to send messages, logging Router$EMSPSZ off
+31.05.2006 12:13:54 0E14 E SenderWorker: Caught CORBA system exception, ID 'IDL:omg.org/CORBA/OBJECT_NO
